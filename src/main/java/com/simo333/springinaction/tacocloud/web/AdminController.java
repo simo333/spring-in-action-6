@@ -22,7 +22,6 @@ public class AdminController {
         return "admin";
     }
 
-    @
     @PostMapping("/deleteOrders")
     public String deleteAllOrders() {
         adminService.deleteAllOrders();
