@@ -1,9 +1,9 @@
 package com.simo333.springinaction.tacocloud.data;
 
 import com.simo333.springinaction.tacocloud.tacos.Taco;
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.PagingAndSortingRepository;
 
 public interface TacoRepository
-        extends CrudRepository<Taco, Long> {
+        extends PagingAndSortingRepository<Taco, Long> {
 
 }
